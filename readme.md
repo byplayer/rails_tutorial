@@ -22,6 +22,7 @@ asdf local yarn 1.22.18
 bundle config set path vendor
 
 echo "source 'https://rubygems.org'" >> Gemfile
+echo "gem 'bootsnap', require: false" >> Gemfile
 echo "gem 'rails', '~> 7.0', '>= 7.0.2.3'" >> Gemfile
 
 bundle install
