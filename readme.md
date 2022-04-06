@@ -28,8 +28,20 @@ echo "gem 'rails', '~> 7.0', '>= 7.0.2.3'" >> Gemfile
 bundle install
 ```
 
-# create hello app
+# hello app
+
+## create hello up
 
 ```bash
 bundle exec rails new hello_app
+```
+
+## commit project undr root project
+
+```bash
+echo '/vendor/ruby' >> hello_app/.gitignore
+rm -rf hello_app/.git
+
+git add .
+git commit
 ```
