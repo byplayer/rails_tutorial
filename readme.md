@@ -45,3 +45,9 @@ rm -rf hello_app/.git
 git add .
 git commit
 ```
+
+## install turbo with webpack
+
+```bash
+bundle exec rails turbo:install:node
+```
