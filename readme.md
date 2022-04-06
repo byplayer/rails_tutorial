@@ -36,7 +36,7 @@ bundle install
 bundle exec rails new hello_app
 ```
 
-## commit project undr root project
+## commit project under root project
 
 ```bash
 echo '/vendor/ruby' >> hello_app/.gitignore
