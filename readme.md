@@ -51,3 +51,9 @@ git commit
 ```bash
 bundle exec rails turbo:install:node
 ```
+
+## start server
+
+```bash
+bundle exec rails server
+```
