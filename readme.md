@@ -57,3 +57,22 @@ bundle exec rails turbo:install:node
 ```bash
 bundle exec rails server
 ```
+
+# toy app
+
+## create hello up
+
+```bash
+bundle exec rails new toy_app
+```
+
+## commit project under root project
+
+```bash
+cd toy_app
+echo '/vendor/ruby' >> .gitignore
+rm -rf .git
+
+git add .
+git commit
+```
